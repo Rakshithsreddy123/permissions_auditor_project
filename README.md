@@ -1,30 +1,38 @@
 # 🔐 Permissions Auditor
 
-A lightweight **Bash Shell Script** that audits Linux file permissions, identifies permission settings, and generates an easy-to-read audit report for learning and security analysis.
+A Linux-based **Bash Shell Scripting** project that automates the auditing of file permissions across multiple directories. The tool analyzes file access permissions and generates a structured audit report, helping users understand Linux security and permission management.
 
-## 🚀 Features
+---
 
-- 🔍 Audits file permissions automatically
+## ✨ Key Features
+
+- 🔍 Automated file permission auditing
 - 📂 Scans multiple directories
-- 📄 Generates a permission audit report
-- 🛡️ Demonstrates Linux permission concepts
-- ⚡ Simple and lightweight Bash script
+- 📄 Generates a detailed audit report
+- 🛡️ Demonstrates secure and insecure permission settings
+- ⚡ Lightweight and easy to execute
+
+---
 
 ## 🎯 Objectives
 
-- Automate permission auditing
-- Detect insecure permission settings
-- Generate readable audit reports
-- Learn Linux file permission management
+- Automate Linux permission analysis
+- Identify potentially insecure file permissions
+- Simplify permission auditing through scripting
+- Enhance understanding of Linux access control
+
+---
 
 ## 🛠️ Tech Stack
 
 - 🐧 Ubuntu Linux
 - 💻 Bash Shell Scripting
 - 📁 Linux File System
-- ⚙️ chmod, chown, ls, stat
+- ⚙️ Linux Commands (`chmod`, `chown`, `ls`, `stat`, `find`)
 
-## 📂 Project Structure
+---
+
+## 📁 Project Structure
 
 ```text
 permissions_auditor_project/
@@ -37,54 +45,79 @@ permissions_auditor_project/
 └── README.md
 ```
 
-## ▶️ How to Run
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/permissions-auditor.git
+```
 
+### Navigate to the Project
+
+```bash
 cd permissions-auditor
+```
 
+### Make the Script Executable
+
+```bash
 chmod +x permissions_auditor.sh
+```
 
+### Run the Script
+
+```bash
 ./permissions_auditor.sh
 ```
 
+---
+
 ## 📊 Output
 
-The script scans the demo directories and generates a **Permission Audit Report** displaying file permissions and access details.
-
-demo 1: Files with Incorrect permissions and World writable files
+The script analyzes the configured directories and generates a **Permission Audit Report** containing file names, ownership, and permission details.
 
 
-<img width="1074" height="781" alt="image" src="https://github.com/user-attachments/assets/99571d01-2f31-46e8-adab-be2c86189be5" />
+demo 1: Files with incorrect permissions and world writable files
 
-<img width="1152" height="700" alt="image" src="https://github.com/user-attachments/assets/f40baef6-bbd2-439c-844c-11e50f933997" />
+<img width="593" height="431" alt="image" src="https://github.com/user-attachments/assets/e2ab1d26-fa35-428c-ab8e-197d94e07dd8" />
 
-
-
-demo 2: Files with no Insecure permissions
+<img width="835" height="507" alt="image" src="https://github.com/user-attachments/assets/66264335-43e8-426d-a91b-ebf9f0559771" />
 
 
-<img width="1162" height="186" alt="image" src="https://github.com/user-attachments/assets/a853cd4f-0c63-45f0-98b4-82b284fcd747" />
+demo 2: Files with no Insecure Permissions
 
-<img width="1149" height="367" alt="image" src="https://github.com/user-attachments/assets/d1977d4a-7028-43f6-ba49-204f99bf28d2" />
+<img width="718" height="115" alt="image" src="https://github.com/user-attachments/assets/9f5de823-ca73-4e20-a4c1-ab5e581f968f" />
 
+<img width="710" height="227" alt="image" src="https://github.com/user-attachments/assets/5b504e3e-5709-4102-b39f-14407dddf448" />
+
+
+---
 
 ## 🔮 Future Enhancements
 
-- 📊 Risk-level classification
-- 🎨 Colored terminal output
-- 📁 Recursive directory scanning
-- 📄 Export reports to CSV/PDF
-- 🖥️ Interactive menu interface
+- 📌 Recursive directory scanning
+- 🎨 Color-coded terminal output
+- 📊 Permission risk classification
+- 📄 Export reports in CSV/PDF format
+- 🖥️ Interactive menu-driven interface
+
+---
 
 ## ✅ Conclusion
 
-This project simplifies Linux permission auditing through automation while helping users understand file security and access control using Bash scripting.
+The **Permissions Auditor** provides a simple and efficient approach to auditing Linux file permissions using Bash scripting. It serves as an educational tool for understanding file security while demonstrating the practical application of Linux permission management.
+
+---
 
 ## 👨‍💻 Author
 
 **Rakshith S**
 
-🔗 GitHub: https://github.com/Rakshithsreddy123
-🔗 LinkedIn: https://www.linkedin.com/in/rakshith-s-190286291
+- 💼 LinkedIn: https://www.linkedin.com/in/rakshith-s-190286291
+- 🐙 GitHub: https://github.com/Rakshithsreddy123
+
+---
+⭐ If you found this project helpful, consider giving it a **Star** on GitHub!
