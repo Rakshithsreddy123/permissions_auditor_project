@@ -79,8 +79,11 @@ chmod +x permissions_auditor.sh
 
 The script analyzes the configured directories and generates a **Permission Audit Report** containing file names, ownership, and permission details.
 
+---
 
-#### 📸 demo 1: Files with incorrect permissions and world writable files
+## 📸 Snapshots
+
+demo 1: Files with incorrect permissions and world writable files
 
 <p align="center">
   <img width="593" height="431" alt="image" src="https://github.com/user-attachments/assets/e2ab1d26-fa35-428c-ab8e-197d94e07dd8" />
@@ -92,7 +95,7 @@ The script analyzes the configured directories and generates a **Permission Audi
 
 ---
 
-#### 📸 demo 2: Files with no Insecure Permissions
+demo 2: Files with no Insecure Permissions
 
 <p align="center">
   <img width="718" height="115" alt="image" src="https://github.com/user-attachments/assets/9f5de823-ca73-4e20-a4c1-ab5e581f968f" />
