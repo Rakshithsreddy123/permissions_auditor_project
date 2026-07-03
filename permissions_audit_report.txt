@@ -1,0 +1,30 @@
+Permissions Audit Script Started at Fri Jul  3 03:26:14 UTC 2026
+Target Directory: /home/rakshith/permissions_auditor_project/permissions_audit_demo
+--------------------------------------------------------------
+---Checking for world-writable files/directories in /home/rakshith/permissions_auditor_project/permissions_audit_demo (o+w) ---
+PERM: 556 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file5.txt | FILE: file5.txt
+PERM: 757 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file15.txt | FILE: file15.txt
+PERM: 566 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file2.txt | FILE: file2.txt
+PERM: 557 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file6.txt | FILE: file6.txt
+PERM: 777 | OWNER: rakshith | GROUP: rakshith | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file23.txt | FILE: file23.txt
+PERM: 767 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file18.txt | FILE: file18.txt
+PERM: 567 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file3.txt | FILE: file3.txt
+PERM: 777 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file21.txt | FILE: file21.txt
+PERM: 756 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file14.txt | FILE: file14.txt
+PERM: 656 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file8.txt | FILE: file8.txt
+PERM: 666 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file11.txt | FILE: file11.txt
+PERM: 667 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file12.txt | FILE: file12.txt
+PERM: 766 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file17.txt | FILE: file17.txt
+PERM: 657 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file9.txt | FILE: file9.txt
+PERM: 667 | OWNER: nihar | GROUP: nihar | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file24.txt | FILE: file24.txt
+PERM: 776 | OWNER: root | GROUP: root | PATH: /home/rakshith/permissions_auditor_project/permissions_audit_demo/file20.txt | FILE: file20.txt
+Total files with Incorrect Permissions(world-writable) are: 15
+
+ ---Checking for Files/Directories NOT owned by the 'root' in /home/rakshith/permissions_auditor_project/permissions_audit_demo ---
+PERM: 755 | OWNER: rakshith | GROUP: rakshith | PATH:/home/rakshith/permissions_auditor_project/permissions_audit_demo | FILE: permissions_audit_demo
+PERM: 777 | OWNER: rakshith | GROUP: rakshith | PATH:/home/rakshith/permissions_auditor_project/permissions_audit_demo/file23.txt | FILE: file23.txt
+PERM: 667 | OWNER: nihar | GROUP: nihar | PATH:/home/rakshith/permissions_auditor_project/permissions_audit_demo/file24.txt | FILE: file24.txt
+PERM: 644 | OWNER: rakshith | GROUP: rakshith | PATH:/home/rakshith/permissions_auditor_project/permissions_audit_demo/file25.txt | FILE: file25.txt
+Total files with Incorrect Ownership (! root) are: 3
+--------------------------------------------------------------------------
+Permissions Auditor Script Finished.
