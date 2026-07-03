@@ -54,11 +54,17 @@ chmod +x permissions_auditor.sh
 The script scans the demo directories and generates a **Permission Audit Report** displaying file permissions and access details.
 
 demo 1: Files with Incorrect permissions and World writable files
+
+
 <img width="1074" height="781" alt="image" src="https://github.com/user-attachments/assets/99571d01-2f31-46e8-adab-be2c86189be5" />
 
 <img width="1152" height="700" alt="image" src="https://github.com/user-attachments/assets/f40baef6-bbd2-439c-844c-11e50f933997" />
 
+
+
 demo 2: Files with no Insecure permissions
+
+
 <img width="1162" height="186" alt="image" src="https://github.com/user-attachments/assets/a853cd4f-0c63-45f0-98b4-82b284fcd747" />
 
 <img width="1149" height="367" alt="image" src="https://github.com/user-attachments/assets/d1977d4a-7028-43f6-ba49-204f99bf28d2" />
