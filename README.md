@@ -98,11 +98,11 @@ demo 1: Files with incorrect permissions and world writable files
 demo 2: Files with no Insecure Permissions
 
 <p align="center">
-  <img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/9f5de823-ca73-4e20-a4c1-ab5e581f968f" />
+  <img width="700" height="250" alt="image" src="https://github.com/user-attachments/assets/9f5de823-ca73-4e20-a4c1-ab5e581f968f" />
 </p>
 -
 <p align="center">
-  <img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/5b504e3e-5709-4102-b39f-14407dddf448" />
+  <img width="700" height="250" alt="image" src="https://github.com/user-attachments/assets/5b504e3e-5709-4102-b39f-14407dddf448" />
 </p>
 
 ---
