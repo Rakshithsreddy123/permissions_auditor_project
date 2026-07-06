@@ -86,11 +86,11 @@ The script analyzes the configured directories and generates a **Permission Audi
 demo 1: Files with incorrect permissions and world writable files
 
 <p align="center">
-  <img width="593" height="431" alt="image" src="https://github.com/user-attachments/assets/e2ab1d26-fa35-428c-ab8e-197d94e07dd8" />
+  <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/e2ab1d26-fa35-428c-ab8e-197d94e07dd8" />
 <p>
 -
 <p align="center">
-  <img width="835" height="507" alt="image" src="https://github.com/user-attachments/assets/66264335-43e8-426d-a91b-ebf9f0559771" />
+  <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/66264335-43e8-426d-a91b-ebf9f0559771" />
 </p>
 
 ---
@@ -98,11 +98,11 @@ demo 1: Files with incorrect permissions and world writable files
 demo 2: Files with no Insecure Permissions
 
 <p align="center">
-  <img width="718" height="115" alt="image" src="https://github.com/user-attachments/assets/9f5de823-ca73-4e20-a4c1-ab5e581f968f" />
+  <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/9f5de823-ca73-4e20-a4c1-ab5e581f968f" />
 </p>
 -
 <p align="center">
-  <img width="710" height="227" alt="image" src="https://github.com/user-attachments/assets/5b504e3e-5709-4102-b39f-14407dddf448" />
+  <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/5b504e3e-5709-4102-b39f-14407dddf448" />
 </p>
 
 ---
